@@ -2,7 +2,7 @@ module ReactNative.Props where
 
 import Prelude
 import Control.Monad.Eff (Eff())
-import Data.Function (mkFn0, mkFn3, mkFn4)
+import Data.Function.Uncurried (mkFn0, mkFn3, mkFn4)
 import React (ReactElement(), Event(), EventHandlerContext(), handle)
 import React.DOM.Props (Props(), unsafeMkProps)
 import ReactNative.Components (ListViewDataSource())
